@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image-Finder HW-13</title>
+    <link rel="stylesheet" href="./main.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <a href="#search-form" class="home">
+      <svg width="50px" height="50px"><use href="/images/up.svg"></use></svg>
+    </a>
+    <form class="search-form" id="search-form">
+      <input
+        type="text"
+        name="query"
+        autocomplete="off"
+        placeholder="Search images..."
+      />
+    </form>
+
+    <ul class="gallery"></ul>
+    <button type="button" class="button">Посмотреть еще</button>
+    <script src="./index.js"></script>
+  </body>
+</html>

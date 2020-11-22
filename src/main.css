@@ -1,0 +1,44 @@
+:root {
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --animation-duration: 250ms;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  position: absolute;
+  width: 1200px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo-card {
+  padding: 20px;
+}
+
+.home {
+  position: fixed;
+  right: 25px;
+  top: 80%;
+  background-image: url(/images/up.svg);
+  background-repeat: no-repeat;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  text-align: end;
+}
+
+.stats-item:not(:last-child) {
+  margin-right: 10px;
+}
